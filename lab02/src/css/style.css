@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #bdbdbd;
+    color: #ffffff;
+    /*font-family: 'Open Sans', sans-serif;*/
+    background-image: url('https://slm-assets.secondlife.com/assets/16809496/original/gif_Decent_Starry_Night_Sky_4x4.gif?1491222283');
+    background-size: cover;
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+
+header {
+    /*position: fixed;*/
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: #ffffff;
+    align-items: center;
+    padding: 1% 10%;
+    text-align: center;
+}
+
+header .header_title{
+    display: flex;
+    position: relative;
+}
+
+header .header_title .rocket{
+    position: absolute;
+    height: 100%;
+}
+
+.inputData{
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    height: 50px;
+    /*font-family: inherit;*/
+    font-size: 105%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.inputData:hover{
+    background: #7c7c7c6b;
+}
+
+h1 {
+    justify-content: space-between;
+    font-size: 30px;
+    /*padding: 0 30% 0 0;*/
+    /*margin: 0 2%;*/
+    margin-right: 20px;
+}
+
+.container {
+    display: inline-block;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    background-color: #7c7c7c6b;
+}
+
+.datetime_choice{
+    display: flex;
+}
+
+.searchButton {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    border-width: 3px;
+    text-transform: uppercase;
+    border-color: #7c7c7c2b;
+    background-color: #7c7c7c2b;
+    border-style: solid;
+    border-radius: 24px;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    line-height: 1.878;
+    font-weight: 700;
+    cursor: pointer;
+    /*margin-inline: auto;*/
+    transition: 0.5s;
+}
+
+.searchButton:hover{
+    background-color: #7c7c7c6b;
+    /*color: white;*/
+    box-shadow: 0 0 5px rgba(0 0 0 0.5);
+}
+
+
+h2 {
+    margin: 5% 5% 0;
+}
+
+p {
+    margin: 2% 10%;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    margin: 2% 5% 10% 5%;
+}
+
+iframe {
+    width: 640px;
+    height: 360px;
+    margin: 10% 5%;
+}
+
+footer {
+    background-color: #151515;
+    color: #dddddd;
+    font-size: 12px;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    img{
+        width: 60%;
+        height: 60%;
+    }
+
+    iframe {
+        width: 426px;
+        height: 240px;
+        margin: 10% 5%;
+    }
+
+}

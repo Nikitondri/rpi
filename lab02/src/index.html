@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>Nasa</title>
+</head>
+
+<body>
+
+<header>
+    <div class="header_title">
+        <h1>NASA</h1>
+        <div id="rocket">
+            <img class="rocket" src="icons/rocket.svg" alt="rocket">
+        </div>
+    </div>
+    <div class="datetime_choice">
+        <label for="dataInput"></label><input type=date id="dataInput" class="inputData">
+        <button id="searchButton" class="searchButton" onclick="searchData()">Load</button>
+    </div>
+</header>
+<main class="container loading">
+    <h2 id="titlePhoto" class="titlePhoto"></h2>
+    <p id="date" class="date"></p>
+    <p id="description" class="description"></p>
+    <div id="media">
+    </div>
+</main>
+<footer>
+    <span class="copyright">Astronomy Pic of the Day</span>
+</footer>
+</body>
+<script type="text/javascript" src="js/media.js"></script>
+<script src="js/script.js"></script>
+
+</html>
