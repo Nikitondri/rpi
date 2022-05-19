@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web animations API - Demo</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+</head>
+
+<body>
+    <div id="bg">
+        <div>
+            <label for="meter">
+                <b>SPEED: </b>
+            </label>
+            <meter id="meter" min="0" max="10" low="0" high="4" optimum="2" value="1">
+                at 50/100
+            </meter>
+
+        </div>
+        <div id="plane-div">
+            <img src="src/img/plane-fly.png" alt="plane" width="463" id="plane-sprite" />
+        </div>
+        <div>
+            <img src="src/img/cloud.png" alt="cloud" id="cloud1-sprite" width="250" />
+            <img src="src/img/cloud.png" alt="cloud" id="cloud2-sprite" width="150" />
+            <img src="src/img/cloud.png" alt="cloud" id="cloud3-sprite" width="300" />
+            <img src="src/img/cloud.png" alt="cloud" id="cloud4-sprite" width="200" />
+        </div>
+    </div>
+    <script type="text/javascript" src="src/js/script.js"></script>
+</body>
+
+</html>
